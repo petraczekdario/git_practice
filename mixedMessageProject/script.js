@@ -32,7 +32,7 @@ const messages = [quote1, quote2, quote3, quote4, quote5, quote6, quote7, quote8
 let randomQuote = "";
 
 function mixedMessages() {
-  randomQuote = messages[(Math.floor(Math.random() * 25))]; // Math.random() used with Math.floor() can be used to return random integers. https://www.w3schools.com/js/js_random.asp
+  randomQuote = messages[(Math.floor(Math.random() * messages.length))]; // Math.random() used with Math.floor() can be used to return random integers. https://www.w3schools.com/js/js_random.asp
   return randomQuote;
 }
 
@@ -40,3 +40,4 @@ console.log("Mixed Message");
 console.log("A simple project in Javascript that prints random messages everytime it runs");
 console.log("\nThis is your Self-Worth and Self-Esteem Quote You Needed to Hear Today: ");
 console.log(mixedMessages()); // calling the function and logging the returned value as a message
+console.log("\n --------------------------------------");
