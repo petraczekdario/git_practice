@@ -11,48 +11,75 @@ body {
     padding: 10px;
 }
 
-#logo {
-    width: 5em;
-    height: auto;
-}
-
-#logo h1 {
-    font-family: "Kanit", serif;
-    font-weight: 800;
-    font-style: normal;
-}
-
-#logo h3 {
-    font-family: "Kanit", serif;
-    font-weight: 600;
-    font-style: normal;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-  
-nav li {
-    float: left;
-}
-  
-nav li a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-}
-
-
 h2 {
+  font-family: "Kanit", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+h3 {
     font-family: "Kanit", serif;
     font-weight: 400;
     font-style: normal;
   }
 
+p {
+  font-family: "Kanit", serif;
+  font-weight: 100;
+  font-style: normal;
+}
 
+/* ------ L O G O ------ */
+#logo {
+  width: 5em;
+  height: auto;
+}
+
+#logo h1 {
+  font-family: "Kanit", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+#logo h3 {
+  font-family: "Kanit", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* ------ N A V I G A T I O N  M E N U ------ */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+/* ------ S E C T I O N S ------ */
+#projects img {
+  width: 35%;
+}
+
+#projects {
+  
+}
+
+#projects div {
+  background-color: rgba(28, 33, 38, 0.5);
+  border-radius: 25px;
+  margin-bottom: 10px;
+  padding: 1.5em;
+}
 
 
 /*
