@@ -50,41 +50,63 @@
         <!-- P R O J E C T S -->
         <section id="projects">
             <h2>Projects</h2>
-            <!-- P R O J E C T # 1 -->
-            <div>
-                <h3>Calculator</h3>
-                <img src="media/images/projects/calculator.jpg" alt="Calculator project">
-                <p>
-                    During my web development course, the calculator project was one of my first significant challenges. This project involved using HTML, CSS, 
-                    and JavaScript to create a web application that not only visually resembled a traditional calculator but also functioned like one. We focused 
-                    on replicating the core functionality, including basic arithmetic operations (addition, subtraction, multiplication, and division), clear/reset 
-                    functionality, and potentially more advanced features like handling decimals and order of operations. Building this project helped solidify my 
-                    understanding of front-end development principles and how these three languages work together to create interactive web experiences.
-                </p>
-                <em>core skills: HTML, CSS and &comma; Javascript</em>
-            </div>
+            <div class="projectsContainer">
+                <!-- P R O J E C T # 1 -->
+                <div>
+                    <h3>Calculator</h3>
+                    <img src="media/images/projects/calculator.jpg" alt="Calculator project">
+                    <p>
+                        During my web development course, the calculator project was one of my first significant challenges. 
+                        <div id="hidden-first">
+                            <p>This project involved using HTML, CSS, 
+                            and JavaScript to create a web application that not only visually resembled a traditional calculator but also functioned like one. We focused 
+                            on replicating the core functionality, including basic arithmetic operations (addition, subtraction, multiplication, and division), clear/reset 
+                            functionality, and potentially more advanced features like handling decimals and order of operations. Building this project helped solidify my 
+                            understanding of front-end development principles and how these three languages work together to create interactive web experiences.
+                            </p>
+                        </div>
+                        <a href="#projects" id="read-more">Read More >></a>
+                    </p>
+                    <em>core skills: HTML, CSS and &comma; Javascript</em>
+                </div>
 
-            <!-- P R O J E C T # 2 -->
-            <div>
-                <h3>Mixed message generator</h3>
-                <img src="media/images/projects/mixedmessages.jpg" alt="Mixed message generator project">
-                <p>
-                    This project, a mixed message generator, was an early challenge in my web development learning journey. The goal was to create a JavaScript program 
-                    that would output a different, randomly generated message each time it was executed. This involved using core JavaScript syntax and programming 
-                    concepts to construct the messages and select random elements from them. Beyond the JavaScript itself, the project also required using Git for 
-                    version control, interacting with the command line, and developing the program locally on my computer. This experience provided valuable practice 
-                    in essential developer workflows and reinforced my understanding of fundamental JavaScript principles.
-                </p>
-                <em>core skills: Javascript, Git and GitHub, command line</em>
+                <!-- P R O J E C T # 2 -->
+                <div>
+                    <h3>Mixed message generator</h3>
+                    <img src="media/images/projects/mixedmessages.jpg" alt="Mixed message generator project">
+                    <p>
+                        This project, a mixed message generator, was an early challenge in my web development learning journey. 
+                        <div id="hidden-first">
+                            <p>The goal was to create a JavaScript program 
+                            that would output a different, randomly generated message each time it was executed. This involved using core JavaScript syntax and programming 
+                            concepts to construct the messages and select random elements from them. Beyond the JavaScript itself, the project also required using Git for 
+                            version control, interacting with the command line, and developing the program locally on my computer. This experience provided valuable practice 
+                            in essential developer workflows and reinforced my understanding of fundamental JavaScript principles.
+                            </p>
+                            </div>
+                            <a href="#projects" id="read-more">Read More >></a>
+                    </p>
+                    
+                    <em>core skills: Javascript, Git and GitHub, command line</em>
+                </div>
             </div>    
         </section>
         
         <!-- S K I L L S -->
         <section id="skills">
             <h2>Skills</h2>
+            <div class="skillsContainer">
+                <div><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="media/images/skills/icons8-html-5-100.png" alt="HTML" onmouseover="this.src='media/images/skills/icons8-html-5-100color.png'" onmouseout="this.src='media/images/skills/icons8-html-5-100.png'"></a></div>
+                <div><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="media/images/skills/icons8-css3-100.png" alt="CSS" onmouseover="this.src='media/images/skills/icons8-css3-100color.png'" onmouseout="this.src='media/images/skills/icons8-css3-100.png'"></a></div>
+                <div><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="media/images/skills/icons8-javascript-logo-100.png" alt="JavaScript" onmouseover="this.src='media/images/skills/icons8-javascript-logo-100color.png'" onmouseout="this.src='media/images/skills/icons8-javascript-logo-100.png'"></a></div>
+                <div><a href="https://www.python.org/" target="_blank"><img src="media/images/skills/icons8-python-100.png" alt="Python" onmouseover="this.src='media/images/skills/icons8-python-100color.png'" onmouseout="this.src='media/images/skills/icons8-python-100.png'"></a></div>
+                <div><a href="https://github.com/petraczekdario/git_practice" target="_blank"><img src="media/images/skills/icons8-github-100.png" alt="GitHub" onmouseover="this.src='media/images/skills/icons8-github-100color.png'" onmouseout="this.src='media/images/skills/icons8-github-100.png'"></a></div>                
+            </div>
+            <em>All icons by <a target="_blank" href="https://icons8.com">Icons8</a></em>
         </section>
 
     </main>
     <footer></footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
